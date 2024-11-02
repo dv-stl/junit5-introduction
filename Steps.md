@@ -90,3 +90,9 @@ Surefire plugin does not care, will run everything until told to exclude somethi
 There is another plugin https://maven.apache.org/surefire/maven-failsafe-plugin/ that kicks in during mvn verify phase 
 There is an image with maven phases in the resource dir.
 Show Effective POM - no special config for surefire
+
+## 9 Test coverage 
+Uncomment Jacoco plugin 
+Make test work
+mvn clean test will be enough to generate target/site/jacoco
+jacoco will automatically instal java agent 
